@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.contactcolumn {
+  display: grid;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.contactrow {
+  margin: 2% 2% 2% 2%;
+  display: flex;
+}
+
+/* Clear floats after the columns */
+.contactrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .contactcolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+
+.cardlarge {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 42px;
+  position: unset;
+  text-align: center;
+  background-color: #f1f1f1;
+}

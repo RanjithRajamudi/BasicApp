@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.cardscolumn {
+  display: grid;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.cardsrow {
+  margin: 2% 2% 4% 2%;
+  display: flex;
+}
+
+/* Style the counter cards */
+.cardscard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 42px;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-image: url("../../images/sushanth.jpg");
+  // filter: blur(8px);
+  // -webkit-filter: blur(1px);
+  height: 100%;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardscard1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-image: url("../../images/Ram.jpg");
+  // filter: blur(8px);
+  // -webkit-filter: blur(1px);
+  height: 100%;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardscard2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-image: url("../../images/rafael.jpg");
+  // filter: blur(8px);
+  // -webkit-filter: blur(1px);
+  height: 100%;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardscard3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-image: url("../../images/china.jpg");
+  // filter: blur(8px);
+  // -webkit-filter: blur(1px);
+  height: 100%;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cardscard4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 2% 5% 2% 5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  background-image: url("../../images/fort.jpg");
+  // filter: blur(8px);
+  // -webkit-filter: blur(1px);
+  height: 100%;
+  opacity: 0.6;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Clear floats after the columns */
+.cardsrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .cardscolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,51 @@
+.actionbar {
+  transition-duration: right 350ms ease-in-out;
+}
+.contentslist {
+  display: inline-grid;
+  :hover {
+    color: rgb(0, 140, 255);
+  }
+}
+
+.actionbaropen {
+  position: fixed;
+  top: 40%;
+  left: 280px;
+  height: 8.8rem;
+  animation: openmove 300ms;
+  animation-direction: normal;
+}
+@keyframes openmove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 280px;
+  }
+}
+
+.actionbarclose {
+  position: fixed;
+  top: 40%;
+  left: 0px;
+  height: 8.8rem;
+  animation: closemove 300ms;
+  animation-direction: normal;
+}
+@keyframes closemove {
+  from {
+    left: 280px;
+  }
+  to {
+    left: 0px;
+  }
+}
+.button {
+  :hover {
+    color: rgb(0, 140, 255);
+  }
+  padding: 5px 50px 5px 50px;
+  font-weight: bolder;
+  display: flex;
+}

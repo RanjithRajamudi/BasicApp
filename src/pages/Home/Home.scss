@@ -1,0 +1,27 @@
+.containeropen {
+  //   margin-left: 280px;
+  animation: opencont 300ms;
+  animation-direction: normal;
+}
+@keyframes opencont {
+  from {
+    margin-left: 0px;
+  }
+  to {
+    margin-left: 280px;
+  }
+}
+
+.containerclose {
+  //   margin-left: 0px;
+  animation: closecont 300ms;
+  animation-direction: normal;
+}
+@keyframes closecont {
+  from {
+    margin-left: 280px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}

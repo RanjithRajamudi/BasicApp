@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  background-image: url("../../images/Content.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.fakeheader {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  background-image: url("../../images/Content.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -575px;
+  background-size: cover;
+}
